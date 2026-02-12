@@ -1,0 +1,26 @@
+.img {
+    width: 100%;
+    height: 75px;
+}
+
+.iii {
+    height: 5rem;
+    width: 5rem;
+}
+
+.nav-link {
+    color: #000;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.nav-link:hover {
+    color: #EF6C37;
+}
+
+@media(max-width:439px) {
+    .img {
+        width: 100%;
+        height: 50px;
+    }
+}
