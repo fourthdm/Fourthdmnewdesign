@@ -1,6 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light ">
   <div class="container-fluid">
-    <a href="" aria-label="Read more about fourthdm"><img class="animate__animated animate__fadeInLeft animate__slower img" src="https://fourthdm-web-data.s3.ap-south-1.amazonaws.com/logo.png" alt=""></a>
+    <a href="" aria-label="Read more about fourthdm"><img
+        class="animate__animated animate__fadeInLeft animate__slower img"
+        src="https://fourthdm-web-data.s3.ap-south-1.amazonaws.com/logo.png" alt=""></a>
     <!-- <img class="iii animate__animated animate__swing animate__fast animate__infinite" src="/assets/2.png" alt=""> -->
     <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarRightAlignExample"
       aria-controls="navbarRightAlignExample" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,11 +24,13 @@
         </li>
 
         <li class="nav-item">
-            <a class="nav-link text" (click)="scroll()" [routerLink]="['/ourwork']">Our Work</a>
-          </li>
+          <a class="nav-link text" (click)="scroll()" [routerLink]="['/ourwork']">Our Work</a>
+        </li>
 
         <li class="nav-item">
-          <a class="nav-link text" (click)="scroll()" [routerLink]="['/portfolio']">Portfolio</a>
+          <a class="nav-link text" (click)="scroll()" href="https://portfolio.fourthdm.com/"
+            target="_blank">Portfolio</a>
+          <!-- <a class="nav-link text" (click)="scroll()" [routerLink]="['/portfolio']">Portfolio</a> -->
         </li>
         <li class="nav-item">
           <a class="nav-link text" (click)="scroll()" href="" [routerLink]="['/blog']">Blog</a>
