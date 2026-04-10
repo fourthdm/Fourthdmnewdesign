@@ -1,5 +1,36 @@
 img {
     width: 100%;
+}
+
+.maintext {
+    font-size: 3em;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #e56c02, #ffd533, #0a789c, #ffd533, #0a789c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-wrap-style: auto;
+}
+
+.submiantext {
+    font-size: 2em;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+.paratext {
+    font-size: larger;
+    color: black;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.img {
+    width: 100%;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
 }
@@ -10,6 +41,114 @@ img {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(30, 30, 30, 0.3) 0px 3px 7px -3px;
 }
 
+.counting {
+    background: linear-gradient(to right, #ffd533, #fb6652);
+    color: white;
+    padding: 3% 0% 3% 0%;
+}
+
+.headline{
+    font-size: 1.5  em;
+    font-weight: bold;
+    color: black;
+}
+
+.h2{
+    font-weight: bold;
+    font-size: 3.8em;
+}
+
 h5 {
     color: black;
+}
+
+i {
+    font-size: 40px;
+    color: white;
+}
+
+.industries {
+    background-color: rgba(0, 0, 0, 0.644);
+}
+
+.industriesname {
+    font-size: 3em;
+}
+
+.experience {
+    font-size: 2.5em;
+    text-align: center;
+    padding: 5% 5% 10% 5%;
+}
+
+.getintouch {
+    background-image: url('/assets/background.png');
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.gettouch {
+    /* color: black; */
+    padding: 5%;
+}
+
+a {
+    color: white;
+}
+
+.btn-outline {
+    border: 2px solid black;
+}
+
+.fa-people-roof {
+    font-size: 2em;
+}
+
+.fa-envelope-open-text {
+    color: black;
+}
+
+.getstart {
+    font-size: larger;
+}
+
+.card-text {
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.laptopview {
+    display: block;
+}
+
+.mobileview {
+    display: none;
+}
+
+@media(max-width: 439px) {
+    .experience {
+        font-size: 1.5em;
+    }
+
+    .getstart {
+        font-size: medium;
+    }
+
+    .mobileview {
+        display: block;
+    }
+
+    .laptopview {
+        display: none;
+    }
+}
+
+.cards {
+    /* border: 1px solid black; */
+    padding: 2% 5% 2% 5%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
