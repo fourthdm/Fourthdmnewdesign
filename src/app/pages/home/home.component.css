@@ -1,4 +1,4 @@
-img {
+.img-fluids {
     width: 100%;
 }
 
@@ -47,13 +47,13 @@ img {
     padding: 3% 0% 3% 0%;
 }
 
-.headline{
-    font-size: 1.5  em;
+.headline {
+    font-size: 1.5em;
     font-weight: bold;
     color: black;
 }
 
-.h2{
+.h2 {
     font-weight: bold;
     font-size: 3.8em;
 }
@@ -151,4 +151,96 @@ a {
     padding: 2% 5% 2% 5%;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.servicecard {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.servicecard:hover {
+    background-color: #e56c02;
+}
+
+.servicetext {
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+
+.Servicessection {
+    background-color: #0a789c54;
+    padding: 4%;
+}
+
+.servicebox {
+    background-color: #e56c02;
+    border-radius: 1px 40px 40px 1px;
+    padding: 1%;
+}
+
+.servicebox2 {
+    margin-top: -10px;
+    background-color: #ffd533;
+    border-radius: 1px 40px 40px 1px;
+    padding: 1%;
+}
+
+.servicebox3 {
+    margin-top: -10px;
+    background-color: #0a789c;
+    border-radius: 1px 40px 40px 1px;
+    padding: 1%;
+}
+
+.servicebox4 {
+    margin-top: -10px;
+    background-color: #fb6652;
+    border-radius: 1px 40px 40px 1px;
+    padding: 1%;
+}
+
+.servicebox5 {
+    margin-top: -10px;
+    background-color: #6cad5b;
+    border-radius: 1px 40px 40px 1px;
+    padding: 1%;
+}
+
+.servicenames {
+    font-size: 20px;
+    color: white;
+    padding-left: 5%;
+}
+
+.Serviceheadline {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.fa-minus {
+    color: black;
+    font-size: small;
+}
+
+.cardreview {
+    border: 0.5px solid transparent;
+    padding: 5%;
+    height: 100%;
+}
+
+.footertext {
+    text-align: bottom;
+}
+
+.cardreviews {
+    border-radius: 5px;
+    padding: 3%;
+    /* box-shadow: rgba(82, 122, 135, 0.17) 0px -23px 25px 0px inset, rgba(82, 122, 135, 0.15) 0px -36px 30px 0px inset, rgba(82, 122, 135, 0.1) 0px -79px 40px 0px inset, rgba(82, 122, 135, 0.06) 0px 2px 1px, rgba(82, 122, 135, 0.09) 0px 4px 2px, rgba(82, 122, 135, 0.09) 0px 8px 4px, rgba(82, 122, 135, 0.09) 0px 16px 8px, rgba(82, 122, 135, 0.09) 0px 32px 16px; */
+    box-shadow: rgba(82, 122, 135, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.review {
+    text-align: justify;
 }
