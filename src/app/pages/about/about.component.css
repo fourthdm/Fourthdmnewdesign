@@ -1,0 +1,193 @@
+.img-fluids {
+    width: 100%;
+}
+
+.headtext {
+    font-family: 'newfont';
+    color: #0a789c;
+    font-size: 3em;
+}
+
+.digitaltext {
+    font-size: 3em;
+    font-weight: 500;
+    color: white;
+}
+
+.cards {
+    /* border: 1px solid black; */
+    padding: 2% 5% 2% 5%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.bg-image {
+    background-image: url('https://fourthdm-web-data.s3.ap-south-1.amazonaws.com/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(7px);
+    color: white;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.abouttext {
+    border-left: 2px solid white;
+    padding-left: 1%;
+}
+
+.maintext {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.textend {
+    font-size: larger;
+    padding: 3% 1% 3% 10%;
+}
+
+.laptopview {
+    display: block;
+}
+
+.mobileview {
+    display: none;
+}
+
+@media(max-width:439px) {
+    .abouttext {
+        border-left: 2px solid white;
+        padding-left: 1%;
+    }
+
+    .maintext {
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+    .textend {
+        font-size: larger;
+        padding-left: 13%;
+    }
+
+    .img-fluids {
+        width: 100%;
+    }
+
+    .mobileview {
+        display: block;
+    }
+
+    .laptopview {
+        display: none;
+    }
+
+    .aboutimage {
+        width: 100% !important;
+    }
+}
+
+.Aboutus {
+    font-size: 4.5em;
+    font-weight: 700;
+    font-family: 'newfont';
+    color: #0a789c;
+}
+
+@font-face {
+    font-family: 'newfont';
+    src: url('/assets/fonts/Disriete-Regular.ttf');
+}
+
+.aboutext {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.aboutimage {
+    width: 80%;
+}
+
+.aboutfourth {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.vissionbox {
+    background-color: #0a789c;
+    border-radius: 1px 70px 70px 1px;
+}
+
+.missionbox {
+    background-color: #0a789c;
+    border-radius: 1px 70px 70px 1px;
+}
+
+.missionicons {
+    padding: 17%;
+    border-radius: 50%;
+    border: 2px solid beige;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 10%;
+}
+
+.icons {
+    padding: 8%;
+    border-radius: 50%;
+    border: 2px solid beige;
+    height: fit-content;
+    width: fit-content;
+    margin-top: 1rem;
+}
+
+.fa-eye {
+    font-size: 75px;
+    color: white;
+}
+
+.fa-paper-plane {
+    font-size: 65px;
+    color: white;
+}
+
+.whytext {
+    color: #0a789c;
+    font-size: 3em;
+    font-weight: 700;
+    font-family: 'newfont';
+}
+
+.why {
+    color: #e56c02;
+    font-size: 25px;
+}
+
+.whypara {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.card {
+    box-shadow: #5a686d 0px 0px 5px 0px, #5a686d 0px 0px 1px 0px;
+    padding-top: 4%;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 10px 5px 25px 8px inset; */
+}
+
+.h2 {
+    font-size: 2.2em;
+    font-weight: 700;
+    color: #e56c02;
+}
+
+.headline {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.countimage{
+    background-color: #e56c02;
+    padding: 3%;
+    border-radius: 50%;
+}

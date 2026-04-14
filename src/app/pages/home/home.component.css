@@ -2,6 +2,18 @@
     width: 100%;
 }
 
+.headtext {
+    font-family: 'newcustomfont';
+    color: #0a789c;
+    font-size: 3em;
+}
+
+.digitaltext {
+    font-size: 3em;
+    font-weight: 500;
+    color: white;
+}
+
 .maintext {
     font-size: 3em;
     font-weight: 700;
@@ -243,4 +255,9 @@ a {
 
 .review {
     text-align: justify;
+}
+
+@font-face {
+    font-family: 'newcustomfont';
+    src: url('/assets/fonts/Rada Cenak Trial.ttf');
 }
