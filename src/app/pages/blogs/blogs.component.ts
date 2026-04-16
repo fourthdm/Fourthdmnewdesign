@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./blogs.component.css']
 })
 export class BlogsComponent {
+  constructor() { }
 
+  ngOnInit(): void {
+
+  }
+
+  Scroll() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
 }

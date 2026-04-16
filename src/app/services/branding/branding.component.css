@@ -1,0 +1,91 @@
+.nav-pills .nav-link {
+    text-align: left;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #e56c02;
+    color: white;
+    font-size: larger;
+}
+
+.paragraph {
+    font-size: larger;
+}
+
+.logo {
+    padding-left: 5%;
+}
+
+.bg-image {
+    background-image: url('/assets/serviceBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(7px);
+    color: white;
+    /* -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none; */
+}
+
+.abouttext {
+    border-left: 2px solid white;
+    padding-left: 1%;
+}
+
+.maintext {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.textend {
+    font-size: larger;
+    padding: 3% 1% 3% 10%;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+.laptopview {
+    display: block;
+}
+
+.mobileview {
+    display: none;
+}
+
+@media(max-width: 439px) {
+     .abouttext {
+        border-left: 2px solid white;
+        padding-left: 1%;
+    }
+
+    .maintext {
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+    .textend {
+        font-size: larger;
+        padding-left: 13%;
+    }
+    .experience {
+        font-size: 1.5em;
+    }
+
+    .getstart {
+        font-size: medium;
+    }
+
+    .mobileview {
+        display: block;
+    }
+
+    .laptopview {
+        display: none;
+    }
+}

@@ -10,6 +10,14 @@ import { AboutComponent } from './pages/about/about.component';
 import { BlogsComponent } from './pages/blogs/blogs.component';
 import { ClientComponent } from './pages/client/client.component';
 import { ServiceComponent } from './pages/service/service.component';
+import { BrandingComponent } from './services/branding/branding.component';
+import { MarketingComponent } from './services/marketing/marketing.component';
+import { WebdevelopmentComponent } from './services/webdevelopment/webdevelopment.component';
+import { OtherservicesComponent } from './services/otherservices/otherservices.component';
+import { HttpClientModule } from '@angular/common/http';
+import { SeoComponent } from './blogs/seo/seo.component';
+import { WebdevelopementComponent } from './blogs/webdevelopement/webdevelopement.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +28,19 @@ import { ServiceComponent } from './pages/service/service.component';
     AboutComponent,
     BlogsComponent,
     ClientComponent,
-    ServiceComponent
+    ServiceComponent,
+    BrandingComponent,
+    MarketingComponent,
+    WebdevelopmentComponent,
+    OtherservicesComponent,
+    SeoComponent,
+    WebdevelopementComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

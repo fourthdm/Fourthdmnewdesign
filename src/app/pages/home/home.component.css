@@ -1,3 +1,27 @@
+.homemaintext {
+    font-size: 2.6em;
+    color: white;
+    margin-top: -1rem;
+}
+
+.fa-square-check {
+    font-size: 20px;
+}
+
+.list {
+    color: white;
+    font-size: larger;
+}
+
+.analysis {
+    font-size: 22px;
+    color: black;
+}
+
+.contactform {
+    background-color: rgba(255, 255, 255, 0.658);
+}
+
 .img-fluids {
     width: 100%;
 }
@@ -156,6 +180,22 @@ a {
     .laptopview {
         display: none;
     }
+
+    .homemaintext {
+        font-size: 25px;
+        color: white;
+    }
+
+    .fa-square-check {
+        font-size: 15px;
+    }
+
+    li {
+        color: white;
+        font-size: medium;
+        list-style: none;
+    }
+
 }
 
 .cards {

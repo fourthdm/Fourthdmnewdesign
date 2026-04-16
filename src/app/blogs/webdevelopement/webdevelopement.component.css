@@ -1,0 +1,62 @@
+.img {
+    width: 100%;
+}
+
+td,
+th {
+    color: black;
+}
+
+* {
+    color: black;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+.contactss:hover {
+    color: rgb(255, 98, 0);
+}
+
+.fa-circle-right {
+    color: #fd8311;
+}
+
+.abouttext {
+    border-left: 2px solid white;
+    padding-left: 1%;
+    color: white;
+}
+
+.maintext {
+    color: white;
+    font-size: 3em;
+}
+
+.laptopview {
+    display: block;
+}
+
+.mobileview {
+    display: none;
+}
+
+@media(max-width: 439px) {
+    .maintext {
+        color: white;
+        font-size: 1.5em;
+    }
+
+    .mobileview {
+        display: block;
+    }
+
+    .laptopview {
+        display: none;
+    }
+
+    .imgmobile {
+        width: 100%;
+    }
+}
