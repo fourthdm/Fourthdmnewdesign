@@ -1,7 +1,31 @@
+<br><br>
 <div class="container">
+    Hello
+ <div class="card">
+        <div class="card-header">Add New Image</div>
+        <div class="card-body">
+            <form [formGroup]="addimageform" (ngSubmit)="onSubmit()" enctype="multipart/form-data">
+
+                <div class=" ">
+                    <label>image</label>
+                    <input type="file" (change)="onFileselectimage($event)" class="form-control" />
+                </div>
+                <br>
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-success text-light btt">Add Image</button>
+                </div>
+            </form>
+        </div>
+    </div>
     <div class="row">
-        <div class="col-md-3" *ngFor="let i of Allimages">
+        <p *ngFor="let i of Allimages">{{i.image}}</p>
+    </div>
+    <div class="row">
+        <div class="col-md-2" *ngFor="let i of Allimages">
             <img [src]="i.image" alt="" width="100%">
         </div>
     </div>
+
+   
 </div>

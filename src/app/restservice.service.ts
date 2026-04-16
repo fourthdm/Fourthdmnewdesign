@@ -9,7 +9,12 @@ export class RestserviceService {
 
   constructor(private _http: HttpClient ) { }
 
-  AllImages(){
+ Addimages(formdata: FormData) {
+    return this._http.post(this.ApiUrl + '/AddImage', formdata);
+  }
+
+  getimageData() {
     return this._http.get(this.ApiUrl + '/AllImages');
   }
+
 }

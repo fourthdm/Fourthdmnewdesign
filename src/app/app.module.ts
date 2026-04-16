@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SeoComponent } from './blogs/seo/seo.component';
 import { WebdevelopementComponent } from './blogs/webdevelopement/webdevelopement.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -41,6 +42,8 @@ import { ContactComponent } from './pages/contact/contact.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
